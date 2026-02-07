@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NISHLI TRAVEL - Discover Sri Lanka with Comfort & Trust. Professional tours, vehicle rentals, and experienced guides. Book your dream vacation today!">
+    <title>NISHLI TRAVEL | Sri Lanka Tours & Vehicle Rental</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon"><i class="fas fa-compass"></i></span>
+                <span class="logo-text">NISHLI TRAVEL</span>
+            </a>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="tours.html" class="nav-link">Tour Packages</a></li>
+                <li><a href="vehicles.html" class="nav-link">Vehicles</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-slider">
+            <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1588258525935-4b626b5c94b9?w=1920&q=80');">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1562696271-0581f5ebf73e?w=1920&q=80');">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=1920&q=80');">
+                <div class="hero-overlay"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title animate-fade-up">Welcome to NISHLI TRAVEL</h1>
+            <p class="hero-subtitle animate-fade-up delay-1">Discover Sri Lanka with Comfort & Trust</p>
+            <div class="hero-buttons animate-fade-up delay-2">
+                <a href="tours.html" class="btn btn-primary">Book Your Tour</a>
+                <a href="contact.html" class="btn btn-secondary">Contact Us</a>
+            </div>
+        </div>
+        <div class="slider-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+        </div>
+    </section>
+
+    <!-- Highlights Section -->
+    <section class="highlights section-padding">
+        <div class="container">
+            <div class="highlights-grid">
+                <div class="highlight-card animate-on-scroll">
+                    <div class="highlight-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Experienced Drivers & Guides</h3>
+                    <p>Professional, knowledgeable, and friendly guides who know every corner of Sri Lanka</p>
+                </div>
+                <div class="highlight-card animate-on-scroll">
+                    <div class="highlight-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>Comfortable Vehicles</h3>
+                    <p>Modern, air-conditioned fleet ranging from luxury cars to spacious vans and buses</p>
+                </div>
+                <div class="highlight-card animate-on-scroll">
+                    <div class="highlight-icon">
+                        <i class="fas fa-tags"></i>
+                    </div>
+                    <h3>Best Prices</h3>
+                    <p>Competitive rates with no hidden charges. Value for your money guaranteed</p>
+                </div>
+                <div class="highlight-card animate-on-scroll">
+                    <div class="highlight-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Round-the-clock assistance throughout your journey for peace of mind</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Tours Preview -->
+    <section class="featured-tours section-padding bg-light">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">Popular Tour Packages</h2>
+                <p class="section-subtitle">Explore our most loved itineraries</p>
+            </div>
+            <div class="tours-grid">
+                <div class="tour-card animate-on-scroll">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1562696271-0581f5ebf73e?w=800&q=80" alt="Sigiriya Rock">
+                        <div class="tour-badge">Popular</div>
+                    </div>
+                    <div class="tour-content">
+                        <h3>Sri Lanka Highlights Tour</h3>
+                        <div class="tour-meta">
+                            <span><i class="fas fa-clock"></i> 7 Days</span>
+                            <span><i class="fas fa-map-marker-alt"></i> 5 Cities</span>
+                        </div>
+                        <p>Experience the best of Sri Lanka from ancient ruins to pristine beaches.</p>
+                        <a href="tours.html" class="btn btn-outline">View Details</a>
+                    </div>
+                </div>
+                <div class="tour-card animate-on-scroll">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1546656495-fc838de15e5c?w=800&q=80" alt="Wildlife Safari">
+                        <div class="tour-badge">Adventure</div>
+                    </div>
+                    <div class="tour-content">
+                        <h3>Wildlife & Safari Tour</h3>
+                        <div class="tour-meta">
+                            <span><i class="fas fa-clock"></i> 5 Days</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Yala & Udawalawe</span>
+                        </div>
+                        <p>Spot leopards, elephants, and exotic birds in their natural habitat.</p>
+                        <a href="tours.html" class="btn btn-outline">View Details</a>
+                    </div>
+                </div>
+                <div class="tour-card animate-on-scroll">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=800&q=80" alt="Beach Holiday">
+                        <div class="tour-badge">Relax</div>
+                    </div>
+                    <div class="tour-content">
+                        <h3>Beach Holiday Tour</h3>
+                        <div class="tour-meta">
+                            <span><i class="fas fa-clock"></i> 6 Days</span>
+                            <span><i class="fas fa-map-marker-alt"></i> South Coast</span>
+                        </div>
+                        <p>Relax on golden sands and enjoy water sports in tropical paradise.</p>
+                        <a href="tours.html" class="btn btn-outline">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="tours.html" class="btn btn-primary">View All Packages</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vehicles Preview -->
+    <section class="vehicles-preview section-padding">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">Our Vehicle Fleet</h2>
+                <p class="section-subtitle">Travel in comfort and style</p>
+            </div>
+            <div class="vehicles-grid">
+                <div class="vehicle-card animate-on-scroll">
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=800&q=80" alt="Luxury Car">
+                    </div>
+                    <div class="vehicle-info">
+                        <h3>Luxury Sedan</h3>
+                        <p><i class="fas fa-users"></i> 3 Passengers</p>
+                        <p><i class="fas fa-snowflake"></i> Full AC</p>
+                    </div>
+                </div>
+                <div class="vehicle-card animate-on-scroll">
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1464219789935-c2d9d9aba644?w=800&q=80" alt="Van">
+                    </div>
+                    <div class="vehicle-info">
+                        <h3>Comfort Van</h3>
+                        <p><i class="fas fa-users"></i> 8 Passengers</p>
+                        <p><i class="fas fa-snowflake"></i> Full AC</p>
+                    </div>
+                </div>
+                <div class="vehicle-card animate-on-scroll">
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1570125909232-eb263c188f7e?w=800&q=80" alt="Bus">
+                    </div>
+                    <div class="vehicle-info">
+                        <h3>Tourist Bus</h3>
+                        <p><i class="fas fa-users"></i> 25 Passengers</p>
+                        <p><i class="fas fa-snowflake"></i> Full AC</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="vehicles.html" class="btn btn-primary">View All Vehicles</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-overlay"></div>
+        <div class="container">
+            <div class="cta-content animate-on-scroll">
+                <h2>Ready to Start Your Adventure?</h2>
+                <p>Contact us today and let us plan your perfect Sri Lankan holiday</p>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/94754229050" class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                    </a>
+                    <a href="contact.html" class="btn btn-white">Send Message</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3><i class="fas fa-compass"></i> NISHLI TRAVEL</h3>
+                    <p>Your trusted partner for exploring the pearl of the Indian Ocean. We create unforgettable memories.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/94754229050" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="tours.html">Tour Packages</a></li>
+                        <li><a href="vehicles.html">Vehicles</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> +94 754 229 050</p>
+                    <p><i class="fas fa-envelope"></i> info@nishlitravel.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Sri Lanka</p>
+                    <p><i class="fas fa-clock"></i> 24/7 Available</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 NISHLI TRAVEL. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/94754229050" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
